@@ -5,3 +5,12 @@ msg_gen/
 srv_gen/
 hector_mapping/src/hector_mapping/
 hector_nav_msgs/src/hector_nav_msgs/
+
+# build artifacts (bloom / catkin / cmake) — never commit
+.obj-*/
+obj-*/
+debian/
+build/
+devel/
+install/
+*.o
